@@ -47,5 +47,5 @@ double calculSimilar(std::vector<float>& v1, std::vector<float>& v2)
 		mod1 += v1[i] * v1[i];
 		mod2 += v2[i] * v2[i];
 	}
-	return ret / sqrt(mod1) / sqrt(mod2);
+	return (ret / sqrt(mod1) / sqrt(mod2) + 1) / 2.0;
 }
