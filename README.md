@@ -23,20 +23,12 @@ If you are familiar with how to build, compile and link, you just need the sourc
 1.clone this repo.
 
 2.If you want to use your all library, modify the CMakeLists.txt according to your environment. <br>
-<<<<<<< HEAD
 Or just use the library in 3rparty and not modify it.
-=======
-  Or just use the library in 3rparty and not modify it.
->>>>>>> 96b8d131f00ea7e15bf250499b35d5267e9dbae9
 
 3.run the build.bat in tools folder.it will generate vs2015 folder.
 
 4.(if you modify in step 2 and make sure your environment right, skip this step)<br>
-<<<<<<< HEAD
 if you didn't change CMakeLists.txt and use my 3rparty library, copy the .dll in 3rparty/opencv/bin to vs2015 folder.
-=======
-  if you didn't change CMakeLists.txt and use my 3rparty library, copy the .dll in 3rparty/opencv/bin to vs2015 folder.
->>>>>>> 96b8d131f00ea7e15bf250499b35d5267e9dbae9
 
 5.open the mobilefacenet_ncnn.sln in vs2015 folder. choose mobilefacenet_ncnn as the startup project. choose release x64 and compile.
 
@@ -51,12 +43,9 @@ mobilefacenent在ncnn上的实现。
 
 ---
 # 运行步骤
-<<<<<<< HEAD
-如果你熟悉如何生成、编译、链接，只需要src文件夹的源码和models文件夹的模型和ncnn、opencv库。相信你可以很容易用自己的方法运行起来。
 
-=======
 如果你熟悉如何生成、编译、链接，只需要src文件夹的源码和models文件夹的模型和ncnn、opencv库。相信你可以很容易用自己的方法运行起来。<br>
->>>>>>> 96b8d131f00ea7e15bf250499b35d5267e9dbae9
+
 下面步骤是对于新手而言，如何在vs2015上运行。
 
 1、下载该仓库（废话……）
@@ -72,14 +61,9 @@ mobilefacenent在ncnn上的实现。
 没什么错就能运行了
 
 ---
-<<<<<<< HEAD
-用的模型比较烂。可以替换成自己的模型。<br>
-注意用的模型是mxnet还是caffe转过来的。mxnet一般网络里减过均值并归一化过。ncnn Mat数据不需要再处理。caffe转的模型，输入数据就需要自己去减均值并归一化了<br>
-这个工程主要就是踩踩坑。有些地方实现效率有点低。
-=======
 用的模型比较烂。可以替换成自己的模型。
 
-注意用的模型是mxnet还是caffe转过来的。mxnet一般网络里减过均值并归一化过。ncnn Mat数据不需要再处理。caffe转的模型，输入数据就需要自己去减均值并归一化了
+注意用的模型是mxnet还是caffe转过来的。mxnet一般网络里减过均值并归一化过。ncnn Mat数据不需要再处理。caffe转的模型，输入数据就需要自己去减均值并归一化了。
 
 这个工程主要就是踩踩坑。有些地方实现效率有点低。
->>>>>>> 96b8d131f00ea7e15bf250499b35d5267e9dbae9
+
